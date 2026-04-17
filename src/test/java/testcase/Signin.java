@@ -50,8 +50,8 @@ public class Signin extends Baseclass{
 		if(expected.equalsIgnoreCase("Login Success")) {
             Assert.assertTrue(driver.getTitle().contains("Amazon"));
             Acount_list list = new Acount_list(driver);
- //           list.hoveraccount();
- //           list.signout();
+            list.hoveraccount();
+            list.signout();
 
         } 
 		else if(obj.isotp()) {
