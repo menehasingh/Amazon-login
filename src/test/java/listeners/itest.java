@@ -21,6 +21,7 @@ public class itest implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
 		Test = extent.createTest(result.getName());
+		Test.info("Test execution started");
 
 		   }
 	public void onTestSuccess(ITestResult result) {

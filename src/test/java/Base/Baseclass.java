@@ -16,7 +16,7 @@ import com.beust.jcommander.Parameter;
 public class Baseclass {
 	public static WebDriver driver;
 	
-	@BeforeMethod
+	@BeforeClass
 	@Parameters({"browser"})
 	 public void setup(String br) {
 	switch(br.toLowerCase()){

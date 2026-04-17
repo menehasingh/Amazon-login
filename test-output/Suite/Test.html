@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/4</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 16 23:02:32 IST 2026</td>
+<td>Started on:</td><td>Thu Apr 16 23:26:07 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1308 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1768 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -115,7 +115,7 @@ in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>-1776360754</td>
+<td>-1776362168</td>
 <td>testcase.Signin@68746f22</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
@@ -127,17 +127,7 @@ in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcase.Signin.setup()'><b>setup</b><br>Test class: testcase.Signin</td>
-<td></td>
-<td>0</td>
-<td>testcase.Signin@68746f22</td></tr>
-<tr>
 <td title='testcase.Signin.teardown()'><b>teardown</b><br>Test class: testcase.Signin</td>
-<td></td>
-<td>0</td>
-<td>testcase.Signin@68746f22</td></tr>
-<tr>
-<td title='testcase.Signin.setup()'><b>setup</b><br>Test class: testcase.Signin</td>
 <td></td>
 <td>0</td>
 <td>testcase.Signin@68746f22</td></tr>
@@ -152,12 +142,22 @@ in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 <td>0</td>
 <td>testcase.Signin@68746f22</td></tr>
 <tr>
+<td title='testcase.Signin.setup()'><b>setup</b><br>Test class: testcase.Signin</td>
+<td></td>
+<td>0</td>
+<td>testcase.Signin@68746f22</td></tr>
+<tr>
 <td title='testcase.Signin.teardown()'><b>teardown</b><br>Test class: testcase.Signin</td>
 <td></td>
 <td>0</td>
 <td>testcase.Signin@68746f22</td></tr>
 <tr>
 <td title='testcase.Signin.teardown()'><b>teardown</b><br>Test class: testcase.Signin</td>
+<td></td>
+<td>0</td>
+<td>testcase.Signin@68746f22</td></tr>
+<tr>
+<td title='testcase.Signin.setup()'><b>setup</b><br>Test class: testcase.Signin</td>
 <td></td>
 <td>0</td>
 <td>testcase.Signin@68746f22</td></tr>
@@ -171,55 +171,13 @@ in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcase.Signin.login()'><b>login</b><br>Test class: testcase.Signin<br>Parameters: invalid@gmail.com, Test@123, Login Failed</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
-in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace533956291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace533956291'><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
-in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:264)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testcase.Signin@68746f22</td></tr>
-<tr>
 <td title='testcase.Signin.login()'><b>login</b><br>Test class: testcase.Signin<br>Parameters: bnehasingh865@gmail.com, iksha@12, Login Success</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
 in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1837533591", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1837533591'><pre>org.testng.TestNGException: 
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace121466124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace121466124'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
 in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:264)
@@ -255,13 +213,13 @@ in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 <td>0</td>
 <td>testcase.Signin@68746f22</td></tr>
 <tr>
-<td title='testcase.Signin.login()'><b>login</b><br>Test class: testcase.Signin<br>Parameters: , Test@123, Email Required</td>
+<td title='testcase.Signin.login()'><b>login</b><br>Test class: testcase.Signin<br>Parameters: invalid@gmail.com, Test@123, Login Failed</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
 in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace269458366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace269458366'><pre>org.testng.TestNGException: 
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace43856716", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace43856716'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
 in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:264)
@@ -302,8 +260,50 @@ in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
 in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace220432328", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace220432328'><pre>org.testng.TestNGException: 
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace352378889", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace352378889'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:846)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:611)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>0</td>
+<td>testcase.Signin@68746f22</td></tr>
+<tr>
+<td title='testcase.Signin.login()'><b>login</b><br>Test class: testcase.Signin<br>Parameters: , Test@123, Email Required</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1731967318", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1731967318'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
 in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:264)

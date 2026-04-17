@@ -103,22 +103,22 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcase.Signin" class="method navigator-link" hash-for-method="login(invalid@gmail.com, Test@123, Login Failed)">login(invalid@gmail.com, Test@123, Login Failed)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcase.Signin" class="method navigator-link" hash-for-method="login(bnehasingh865@gmail.com, iksha@12, Login Success)">login(bnehasingh865@gmail.com, iksha@12, Login Success)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcase.Signin" class="method navigator-link" hash-for-method="login(, Test@123, Email Required)">login(, Test@123, Email Required)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcase.Signin" class="method navigator-link" hash-for-method="login(invalid@gmail.com, Test@123, Login Failed)">login(invalid@gmail.com, Test@123, Login Failed)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcase.Signin" class="method navigator-link" hash-for-method="login(testuser2@gmail.com, Wrong123, Cannot access your email address?)">login(testuser2@gmail.com, Wrong123, Cannot access your email address?)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase.Signin" class="method navigator-link" hash-for-method="login(, Test@123, Email Required)">login(, Test@123, Email Required)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -141,20 +141,6 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login(invalid@gmail.com, Test@123, Login Failed)">
-                  </a> <!-- login(invalid@gmail.com, Test@123, Login Failed) -->
-                  <span class="method-name">login</span>
-                  <span class="parameters">(invalid@gmail.com,Test@123,Login Failed)</span>
-                  <div class="stack-trace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
-in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="login(bnehasingh865@gmail.com, iksha@12, Login Success)">
                   </a> <!-- login(bnehasingh865@gmail.com, iksha@12, Login Success) -->
                   <span class="method-name">login</span>
@@ -169,10 +155,10 @@ in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="login(, Test@123, Email Required)">
-                  </a> <!-- login(, Test@123, Email Required) -->
+                  <a name="login(invalid@gmail.com, Test@123, Login Failed)">
+                  </a> <!-- login(invalid@gmail.com, Test@123, Login Failed) -->
                   <span class="method-name">login</span>
-                  <span class="parameters">(,Test@123,Email Required)</span>
+                  <span class="parameters">(invalid@gmail.com,Test@123,Login Failed)</span>
                   <div class="stack-trace">org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
 in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
@@ -187,6 +173,20 @@ in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
                   </a> <!-- login(testuser2@gmail.com, Wrong123, Cannot access your email address?) -->
                   <span class="method-name">login</span>
                   <span class="parameters">(testuser2@gmail.com,Wrong123,Cannot access your email address?)</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(, Test@123, Email Required)">
+                  </a> <!-- login(, Test@123, Email Required) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(,Test@123,Email Required)</span>
                   <div class="stack-trace">org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeMethod on method setup but has not been marked @Optional or defined
 in C:\Users\Admin\eclipse-workspace\Amazonweb\login.xml
@@ -256,7 +256,7 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'testcase.Signin')
-data.setCell(0, 3, 1);
+data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login')
 data.setCell(1, 2, 'testcase.Signin')
@@ -273,7 +273,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 ms</span>
+              <span class="suite-total-time">Total running time: 0 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
